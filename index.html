@@ -7,6 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Customers Reviews</title>
     <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
   </head>
   <body>
     <main>
@@ -25,10 +29,43 @@
         </div>
       </section>
       <!--reviews summary in short-->
-      <section>
-        <div>total reviews</div>
-        <div>average rating</div>
-        <div>graph</div>
+      <section id="summary">
+        <div id="total">
+          <p>Total Reviews</p>
+          <p>10.0k <span id="direction">21%</span></p>
+          <p id="total-msg">Growth in reviews on this year</p>
+        </div>
+        <div id="stars">
+          <p>Average Rating</p>
+          <p>
+            4.0
+            <span>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </span>
+          </p>
+          <p>Average rating on this year</p>
+        </div>
+
+        <div id="graph">
+          <ol reversed>
+            <li>
+              <progress id="five" value="90" max="100"></progress>&nbsp; 2k
+            </li>
+            <li>
+              <progress id="four" value="70" max="100"></progress>&nbsp;1k
+            </li>
+            <li>
+              <progress id="three" value="30" max="100"></progress>&nbsp;500
+            </li>
+            <li>
+              <progress id="two" value="10" max="100"></progress>&nbsp;200
+            </li>
+            <li><progress id="one" value="7" max="100"></progress>&nbsp;11</li>
+          </ol>
+        </div>
       </section>
       <!--user reviews section-->
       <section>

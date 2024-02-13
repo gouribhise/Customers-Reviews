@@ -27,3 +27,9 @@ main {
 #heading-dropdown {
   margin-right: 10vw;
 }
+
+#summary {
+  margin-top: 2%;
+  display: flex;
+  justify-content: space-around;
+}
