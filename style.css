@@ -12,3 +12,18 @@ main {
   width: 90vw;
   margin: 0 auto;
 }
+
+#heading {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2%;
+}
+#heading-title {
+  margin-left: 10vw;
+  font-size: 1.3rem;
+  font-weight: bold;
+  letter-spacing: 0.5mm;
+}
+#heading-dropdown {
+  margin-right: 10vw;
+}
