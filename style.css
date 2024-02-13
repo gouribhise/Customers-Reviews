@@ -24,17 +24,61 @@ main {
   font-weight: bold;
   letter-spacing: 0.5mm;
 }
+
+#direction {
+  background-color: #e1fae5;
+  padding: 1%;
+  border: none;
+  border-radius: 10px;
+}
+#total,
+#stars {
+  padding: 2%;
+  border-right: 1px solid #e6e6e6;
+}
+#total > p:nth-child(2),
+p:nth-child(3) {
+  margin-top: 2%;
+}
+#total > p:nth-child(3) {
+  color: gray;
+  font-size: 0.5rem;
+}
+#stars > p:nth-child(2),
+p:nth-child(3) {
+  margin-top: 2%;
+}
+#stars > p:nth-child(3) {
+  color: gray;
+  font-size: 0.5rem;
+}
 #heading-dropdown {
   margin-right: 10vw;
 }
-
+select {
+  background-color: white;
+  padding: 4%;
+  width: 100%;
+  cursor: pointer;
+  border: 3px solid #f8f8fa;
+  border-radius: 3px;
+}
+.fa-star {
+  color: #f7ba2b;
+}
+progress::-moz-progress-bar {
+  background: lightblue;
+}
 #summary {
   margin-top: 2%;
   display: flex;
   justify-content: space-around;
   border-bottom: 10px solid #f8f8fa;
+  padding-bottom: 2%;
 }
-
+ol > li > span {
+  font-size: 0.5rem;
+}
 #reviews-section {
   display: flex;
   flex-direction: column;
