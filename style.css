@@ -32,4 +32,59 @@ main {
   margin-top: 2%;
   display: flex;
   justify-content: space-around;
+  border-bottom: 10px solid #f8f8fa;
+}
+
+#reviews-section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4%;
+}
+
+#reviews-section > article {
+  margin-left: 2vw;
+}
+.reviews {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 4%;
+}
+.user_img {
+  border: none;
+  border-radius: 10px;
+}
+.user-details {
+  margin-left: 4vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 30vw;
+}
+.user-details > div > p {
+  font-size: 0.5rem;
+}
+
+.user-review {
+  margin-right: 10vw;
+  width: 50vw;
+}
+.user-review > div {
+  margin-bottom: 2%;
+}
+#review-btns {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 2%;
+}
+
+#review-btns > button {
+  padding: 1%;
+  padding-left: 4%;
+  padding-right: 4%;
+  border: none;
+  border-radius: 10px;
+  font-size: 0.5rem;
 }
